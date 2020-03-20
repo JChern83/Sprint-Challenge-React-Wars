@@ -2,6 +2,27 @@ import React from "react"
 import styled from "styled-components"
 import {Badge} from "reactstrap"
 
+const Row = styled.div`
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    color: white;
+    text-shadow: 1px 2px black;
+    padding: 10px 0px;
+`
+
+
+const Card =styled.div`
+    display: flex;
+    background-color: rgba(38, 7, 7, .5); 
+    flex-direction: column;
+    width: 25%;
+    border: 1px dotted black;
+    color: white;
+    text-shadow: 2px 2px black;
+    margin: 25px 0 px;
+`
 
 const starWarsCard = props => {
     return (
