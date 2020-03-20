@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import './App.css';
 import StarWarsCard from "./components/StarWarsCard";
-// https://swapi.co/api/people/1/
 
 const App = () => {
 
@@ -18,7 +17,7 @@ const App = () => {
       setStarWarsData(data.results)
     });
   }, [])
-    console.log(starWarsData)
+    // console.log(starWarsData)
   const displayData = () => {
     return starWarsData.map(data => {
       return (
